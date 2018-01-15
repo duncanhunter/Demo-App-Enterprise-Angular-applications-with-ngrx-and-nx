@@ -1,7 +1,7 @@
 <mat-card>
     <mat-card-title>Login</mat-card-title>
     <mat-card-content>
-        <form fxLayout="column" fxLayoutAlign="center none" [formGroup]="loginForm">
+        <form fxLayout="column" fxLayoutAlign="center none" [formGroup]="loginForm" novalidate>
             <mat-input-container>
                 <input matInput placeholder="username" type="text" formControlName="username">
                 <mat-error ngxErrors="username">
@@ -18,7 +18,7 @@
                     </div>
                 </mat-error>
             </mat-input-container>
-            <button mat-raised-button (click)="login()">login</button>
         </form>
+        <button mat-raised-button (click)="login()">login</button>
     </mat-card-content>
 </mat-card>

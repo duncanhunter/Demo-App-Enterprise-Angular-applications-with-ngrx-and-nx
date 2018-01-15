@@ -19,7 +19,7 @@
     "format:write": "node ./node_modules/@nrwl/schematics/src/command-line/format.js write",
     "format:check": "node ./node_modules/@nrwl/schematics/src/command-line/format.js check",
     "nx-migrate": "node ./node_modules/@nrwl/schematics/src/command-line/nx-migrate.js",
-    "server": "ts-node ./server/index.ts"
+    "server": "ts-node ./server/server.ts"
   },
   "private": true,
   "dependencies": {

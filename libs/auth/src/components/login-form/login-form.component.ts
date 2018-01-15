@@ -15,7 +15,10 @@ export class LoginFormComponent {
     password: new FormControl('', [Validators.required])
   });
 
-  login(username: string, password: string) {
-    this.submit.emit({ username, password });
+  login() {
+    this.submit.emit({
+      username: this.loginForm.value.username,
+      password: this.loginForm.value.password
+    });
   }
 }
