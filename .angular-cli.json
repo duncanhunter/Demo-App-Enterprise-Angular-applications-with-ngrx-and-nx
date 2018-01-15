@@ -93,6 +93,12 @@
       "root": "libs/material/src",
       "test": "../../../test.js",
       "appRoot": ""
+    },
+    {
+      "name": "user-profile",
+      "root": "libs/user-profile/src",
+      "test": "../../../test.js",
+      "appRoot": ""
     }
   ]
 }

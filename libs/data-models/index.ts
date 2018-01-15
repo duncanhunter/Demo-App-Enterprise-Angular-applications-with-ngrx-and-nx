@@ -1,1 +1,1 @@
-export { Authenticate } from './src/data-models';
+export { Authenticate, User } from './src/data-models';
